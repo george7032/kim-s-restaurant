@@ -50,7 +50,7 @@ Author: George7032 on github
     text-decoration: underline;
     color: #ff4757;
 }
-
+/*Menu*/
 /*Main content*/
 .main-content{
     background-color: #f1f2f6;
@@ -65,9 +65,65 @@ Author: George7032 on github
     padding: 2%;
     float: left;
 }
+
+
+/*Admin main content*/
+.tbl-full{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid grey;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+    text-align: left;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+.btn-delete{
+    background-color: #ff6b81;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.btn-delete:hover{
+    background-color:#ff4757 ; 
+}
+
+/*Admin main content*/
+
+/* Add Admin*/
+.tbl-30{
+    width: 30%;
+}
+/*Add Admin*/
+
+/*Main Content*/
 /*footer*/
 .footer{
     background-color: #ff4757;
     color: white;
 }
- 
+/*Footer*/
