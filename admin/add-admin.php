@@ -34,3 +34,30 @@
 </div>
 <?php include('partials/footer.php');?>
 
+<?php
+//process the data from the form to the database
+//check if the button is clicked or not
+
+if(isset($_POST['submit']))
+{
+    //get data from the forms
+    $fullname = $_POST['fullname'];
+    $username = $_POST['username'];
+    $password = md5($_POST['password']);//password encription with md5
+
+    //sql query to save the data in the database
+    $sql = "INSERT INTO tbl_admin SET
+    fullname = '$fullname',
+    username = '$username',
+    password = '$password'
+    ";
+
+    //exceute query and add data in db
+
+
+    //$res = mysqli_query($conn, $sql) or die(mysqli_error());
+
+
+}
+?>
+
